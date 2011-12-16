@@ -1,9 +1,12 @@
+# workaround bug in rpm unpackaged subdir check
+%define _unpackaged_subdirs_terminate_build 0
+
 %define srcname perlkde
 %define with_kdepimlibs4 0
 
 Name:perl-kde4
 Summary: Kde4 bindings for perl language
-Version: 4.7.80
+Version: 4.7.90
 Release: 1
 Epoch: 1
 Group: Graphical desktop/KDE
