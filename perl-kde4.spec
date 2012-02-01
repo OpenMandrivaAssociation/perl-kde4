@@ -9,7 +9,7 @@ Epoch:		1
 Group:		Graphical desktop/KDE
 License:	GPLv2
 URL:		http://www.kde.org
-Source0:	ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{module}-%version.tar.bz2
+Source0:	ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{srcname}-%{version}.tar.bz2
 BuildRequires:	perl-qt4-devel >= 1:%{version}
 BuildRequires:	smokekde-devel
 BuildRequires:	gdbm-devel
