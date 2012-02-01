@@ -1,5 +1,5 @@
 %define srcname perlkde
-%define with_kdepimlibs4 0
+%define with_kdepimlibs4 1
 
 Name:		perl-kde4
 Summary:	Kde4 bindings for perl language
@@ -22,7 +22,7 @@ Requires:	perl-qt4 >= %{epoch}:%{version}
 A kde4 bindings for perl language.
 
 %prep
-%setup -q -n %{module}-%{version}
+%setup -q -n %{srcname}-%{version}
 
 %build
 %cmake_kde4
