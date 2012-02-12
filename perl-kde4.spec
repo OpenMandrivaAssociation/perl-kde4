@@ -1,9 +1,9 @@
 %define srcname perlkde
-%define with_kdepimlibs4 1
+%define with_kdepimlibs4 0
 
 Name:		perl-kde4
 Summary:	Kde4 bindings for perl language
-Version:	4.7.95
+Version:	4.8.0
 Release:	1
 Epoch:		1
 Group:		Graphical desktop/KDE
@@ -34,15 +34,14 @@ A kde4 bindings for perl language.
 %files
 %{_kde_libdir}/kde4/kperlpluginfactory.so
 %if %with_kdepimlibs4
-%{perl_sitearch}/Akonadi.pm
 %{perl_sitearch}/QImageBlitz.pm
 %{perl_sitearch}/Phonon.pm
 %{perl_sitearch}/Qsci.pm
-%{perl_sitearch}/auto/Akonadi
 %{perl_sitearch}/auto/Phonon
 %{perl_sitearch}/auto/QImageBlitz
 %{perl_sitearch}/auto/Qsci
 %endif
+%{perl_sitearch}/Akonadi.pm
 %{perl_sitearch}/Attica.pm
 %{perl_sitearch}/KDECore4.pm
 %{perl_sitearch}/KDEUi4.pm
@@ -63,6 +62,7 @@ A kde4 bindings for perl language.
 %{perl_sitearch}/Soprano.pm
 %{perl_sitearch}/SopranoClient.pm
 %{perl_sitearch}/SopranoServer.pm
+%{perl_sitearch}/auto/Akonadi
 %{perl_sitearch}/auto/Attica
 %{perl_sitearch}/auto/KDECore4
 %{perl_sitearch}/auto/KDEUi4
