@@ -3,13 +3,13 @@
 
 Name:		perl-kde4
 Summary:	Kde4 bindings for perl language
-Version:	4.8.0
+Version:	4.8.2
 Release:	1
 Epoch:		1
 Group:		Graphical desktop/KDE
 License:	GPLv2
 URL:		http://www.kde.org
-Source0:	ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{srcname}-%{version}.tar.bz2
+Source0:	ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{srcname}-%{version}.tar.xz
 BuildRequires:	perl-qt4-devel >= 1:%{version}
 BuildRequires:	smokekde-devel
 BuildRequires:	gdbm-devel
