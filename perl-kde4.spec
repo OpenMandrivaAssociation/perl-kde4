@@ -3,8 +3,8 @@
 
 Name:		perl-kde4
 Summary:	Kde4 bindings for perl language
-Version:	4.8.2
-Release:	1
+Version: 4.8.3
+Release: 1
 Epoch:		1
 Group:		Graphical desktop/KDE
 License:	GPLv2
