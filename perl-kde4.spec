@@ -3,7 +3,7 @@
 
 Name:		perl-kde4
 Summary:	Kde4 bindings for perl language
-Version: 4.8.3
+Version: 4.8.4
 Release: 1
 Epoch:		1
 Group:		Graphical desktop/KDE
