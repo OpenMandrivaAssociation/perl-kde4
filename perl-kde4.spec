@@ -3,8 +3,8 @@
 
 Name:		perl-kde4
 Summary:	KDE4 bindings for perl language
-Version: 4.9.3
-Release: 1
+Version:	4.9.4
+Release:	1
 Epoch:		1
 Group:		Graphical desktop/KDE
 License:	GPLv2
@@ -83,4 +83,51 @@ A KDE4 bindings for perl language.
 %{perl_sitearch}/auto/Soprano
 %{perl_sitearch}/auto/SopranoClient
 %{perl_sitearch}/auto/SopranoServer
+
+
+%changelog
+* Wed Dec 05 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.9.4-1
+- New version 4.9.4
+
+* Wed Nov 07 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.9.3-1
+- New version 4.9.3
+
+* Thu Oct 04 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.9.2-1
+- New version 4.9.2
+
+* Sat Sep 08 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.9.1-1
+- New version 4.9.1
+
+* Tue Aug 14 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.9.0-1
+- New version 4.9.0
+
+* Sun Jul 22 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.8.97-1
+- New version 4.8.97
+
+* Sun Jul 08 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.8.95-1
+- New version 4.8.95
+
+* Sat Jun 09 2012 Crispin Boylan <crisb@mandriva.org> 1:4.8.4-1
++ Revision: 803767
+- New release
+
+* Fri May 04 2012 Crispin Boylan <crisb@mandriva.org> 1:4.8.3-1
++ Revision: 796328
+- New release
+
+* Thu Apr 19 2012 Crispin Boylan <crisb@mandriva.org> 1:4.8.2-1
++ Revision: 792065
+- New release
+
+* Sun Feb 12 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1:4.8.0-1
++ Revision: 773652
+- new version
+- build with kdepimlibs
+- apply some cosmetics
+
+  + Nicolas Lécureuil <nlecureuil@mandriva.com>
+    - New version
+    - New version
+    - Import perl-kde4
+    - Create folder
 
