@@ -3,7 +3,7 @@
 
 Name:		perl-kde4
 Summary:	KDE4 bindings for perl language
-Version:	4.10.1
+Version:	4.10.2
 Release:	1
 Epoch:		1
 Group:		Graphical desktop/KDE
@@ -86,6 +86,9 @@ A KDE4 bindings for perl language.
 
 
 %changelog
+* Wed Apr 03 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.10.2-1
+- New version 4.10.2
+
 * Sat Mar 09 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.10.1-1
 - New version 4.10.1
 
