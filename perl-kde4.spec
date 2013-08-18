@@ -1,14 +1,14 @@
 %define srcname perlkde
 %define with_kdepimlibs4 0
 
-Name:		perl-kde4
 Summary:	KDE4 bindings for perl language
+Name:		perl-kde4
 Version:	4.11.0
 Release:	1
 Epoch:		1
 Group:		Graphical desktop/KDE
 License:	GPLv2
-URL:		http://www.kde.org
+Url:		http://www.kde.org
 Source0:	ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{srcname}-%{version}.tar.xz
 BuildRequires:	perl-qt4-devel >= 1:%{version}
 BuildRequires:	smokekde-devel
@@ -16,6 +16,7 @@ BuildRequires:	gdbm-devel
 %if %{with_kdepimlibs4}
 BuildRequires:	kdepimlibs4-devel
 %endif
+BuildRequires:	pkgconfig(shared-desktop-ontologies)
 Requires:	perl-qt4 >= %{epoch}:%{version}
 
 %description
@@ -84,10 +85,10 @@ A KDE4 bindings for perl language.
 %{perl_sitearch}/auto/SopranoClient
 %{perl_sitearch}/auto/SopranoServer
 
-
 %changelog
 * Wed Aug 14 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.11.0-1
 - New version 4.11.0
+- Add pkgconfig(shared-desktop-ontologies) to BuildRequires
 
 * Wed Jul 03 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.10.5-1
 - New version 4.10.5
