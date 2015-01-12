@@ -54,7 +54,6 @@ A KDE4 bindings for perl language.
 %{perl_sitearch}/KParts.pm
 %{perl_sitearch}/KTextEditor.pm
 %{perl_sitearch}/KUtils.pm
-%{perl_sitearch}/Kate.pm
 %{perl_sitearch}/Nepomuk.pm
 %{perl_sitearch}/NepomukQuery.pm
 %{perl_sitearch}/Okular.pm
@@ -75,7 +74,6 @@ A KDE4 bindings for perl language.
 %{perl_sitearch}/auto/KParts
 %{perl_sitearch}/auto/KTextEditor
 %{perl_sitearch}/auto/KUtils
-%{perl_sitearch}/auto/Kate
 %{perl_sitearch}/auto/Nepomuk
 %{perl_sitearch}/auto/NepomukQuery
 %{perl_sitearch}/auto/Okular
