@@ -4,7 +4,7 @@
 Summary:	KDE4 bindings for perl language
 Name:		perl-kde4
 Version:	4.14.3
-Release:	3
+Release:	4
 Epoch:		1
 Group:		Graphical desktop/KDE
 License:	GPLv2
