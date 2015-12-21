@@ -26,7 +26,7 @@ A KDE4 bindings for perl language.
 %setup -q -n %{srcname}-%{version}
 
 %build
-%cmake_kde4
+%cmake_kde4 -DCMAKE_MINIMUM_REQUIRED_VERSION=2.6
 %make
 
 %install
